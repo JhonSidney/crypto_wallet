@@ -1,4 +1,5 @@
 class CoinsController < ApplicationController
+  layout "adm"
   before_action :set_coin, only: %i[ show edit update destroy ]
 
   # GET /coins or /coins.json
@@ -50,7 +51,7 @@ class CoinsController < ApplicationController
   # DELETE /coins/1 or /coins/1.json
   def destroy
     @coin.destroy
-
+    
     respond_to do |format|
       format.html { redirect_to coins_url, notice: "Coin was successfully destroyed." }
       format.json { head :no_content }

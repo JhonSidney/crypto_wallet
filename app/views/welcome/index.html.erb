@@ -1,6 +1,10 @@
 <h1>Sejam Bem vindos</h1>
 <p><strong>Data:</strong><%= data_br(Date.today) %></p>
 
-<%= link_to "Cadstro de Moedas", coins_path %>
+<%= render "menu" %>
 
 <p>você esta no ambiente de <strong> <%= ambiente_rails %> </strong></p>
+
+<p>Sou variavel de instancia <strong> <%= @meu_nome %> </strong></p>
+
+<p>meu Curso é de  <strong> <%= @curso %> </strong></p>
