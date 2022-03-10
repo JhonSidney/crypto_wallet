@@ -5,9 +5,62 @@ namespace :dev do
       show_spinner("Deletando BD...") { %x(rails db:drop) }
       show_spinner("Criando BD...") { %x(rails db:create) }
       show_spinner("Migrando BD...") { %x(rails db:migrate) }
-      show_spinner("Populando BD...") { %x(rails db:seed) }
+      %x(rails dev:add_coins)
+      %x(rails dev:add_mining_types)
     else
       puts "voce nao esta em ambiente rails de desenvolvimento!"
+    end
+  end
+
+  desc "Cadastra moedas"
+  task add_coins: :environment do
+    show_spinner("Cadastrando moedas...") do
+      coins = [
+                {
+                  description: "Ethereum",
+                  acronym: "ETH",
+                  url_image: "https://www.comocomprarcriptomoedas.com/wp-content/uploads/2018/02/ETHEREUM-LOGO-2.png"
+                },
+                {
+                  description: "Bitcoin",
+                  acronym: "BTC",
+                  url_image: "https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"
+                },
+                {
+                  description: "Dash",
+                  acronym: "DSH",
+                  url_image: "https://thumbs.dreamstime.com/b/%C3%ADcone-de-dashcoin-o-estilo-da-ilustra%C3%A7%C3%A3o-do-vetor-%C3%A9-um-s%C3%ADmbolo-ic%C3%B4nico-liso-com-varia%C3%A7%C3%B5es-azuis-cor-projetado-para-web-e-131604966.jpg"
+                },
+                {
+                  description: "Iota",
+                  acronym: "IOT",
+                  url_image: "https://preview.free3d.com/img/2019/10/2154262020566812458/wzgdo8xh-900.jpg"
+                },
+                {
+                  description: "Zcash",
+                  acronym: "ZEC",
+                  url_image: "https://assets.coingecko.com/coins/images/486/large/circle-zcash-color.png?1547034197"
+                } 
+              ]
+
+      coins.each do |coin|
+        Coin.find_or_create_by!(coin)
+      end    
+    end
+  end
+
+  desc "Cadastra os tipos de mineração"
+  task add_mining_types: :environment do
+    show_spinner("Cadastrando tipos de mineração...") do
+      mining_types = [
+        {name: "Proof of Work", acronym: "PoW"},
+        {name: "Proof of Stack", acronym: "PoS"},
+        {name: "Proof of Capacity", acronym: "PoC"}
+      ]
+
+      mining_types.each do |mining_type|
+        MiningType.find_or_create_by!(mining_type)
+      end    
     end
   end
 
