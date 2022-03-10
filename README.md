@@ -1,24 +1,17 @@
-# README
+<h1 align = "center" >
+  <img alt="Tizen" width = "60px" src="https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png">
+  Cripto Wallet
+</h1>
+<table align = "center" >
+  <th>Desenvolvedores:</th>
+  <th>
+    <a href="https://github.com/jhonsidney">Jhon Sidney/ </a>
+  </th>
+ 
+</table>
+<h4 align="center" >Projeto de Cadastro de moedas digitais - CRUD - Udemy Curso</h4>
+<h4 align="center" >Ruby on Rails - UFRPE</h4>
+<h4 align="center" >Cripto Wallet</h4>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://user-images.githubusercontent.com/18706961/155847155-3d8074d4-7de7-446e-ac0b-789d3f4660c2.png)
