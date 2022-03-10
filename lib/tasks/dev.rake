@@ -66,6 +66,7 @@ namespace :dev do
 
   private
   def show_spinner(msg_start, msg_end = "Concluído")
+    #https://github.com/piotrmurach/tty-spinner
     spinner = TTY::Spinner.new("[:spinner] #{msg_start}")
     spinner.auto_spin
     yield
