@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'pry'
 gem "tty-spinner"
+gem 'rails-i18n', '~> 5.1' # For 5.0.x, 5.1.x and 5.2.x
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

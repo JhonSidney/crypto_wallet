@@ -1,0 +1,9 @@
+pt-BR:
+  actual_locale: "Portugues do Brasil"
+  hello: "Olá mundo"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
+    mining_type: "Tipos de Mineração"
+    coins: "Moedas"
