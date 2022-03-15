@@ -1,14 +1,13 @@
-<p><%= link_to 'Portugues', root_path(locale: 'pt-BR')%></p>
-<p><%= link_to 'English', root_path(locale: 'en')%></p>
-<h1>Sejam Bem vindos</h1>
-<p>o idioma usado nessa aplicação é: <strong> <%= t('actual_locale') %></strong></p>
-<p><strong>Data:</strong><%= l(Date.today) %></p>
-<p> <%= t('hello')%> </p>
 
-<%= render "menu" %>
-
-<p>você esta no ambiente de <strong> <%= ambiente_rails %> </strong></p>
-
-<p>Sou variavel de instancia <strong> <%= @meu_nome %> </strong></p>
-
-<p>meu Curso é de  <strong> <%= @curso %> </strong></p>
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <%= image_tag "cripto.png", class: "d-block mx-lg-auto img-fluid", alt:"Bootstrap Themes", width:"700", height:"500", loading:" lazy" %>
+    </div>
+    <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Sejam Bem vindo!</h1>
+        <p class="lead">Esta é o Cripto Wallet, uma app para voce cadastrar e acompanhar suas criptomoedas. Para começar selecione uma das opções abaixo: </p>
+      <%= render "menu" %>
+    </div>
+  </div>
+</div>

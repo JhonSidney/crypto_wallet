@@ -1,5 +1,16 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jQuery": "^1.7.4",
+    "jquey": "^0.0.1-security",
+    "notify-js-legacy": "^0.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JhonSidney/crypto_wallet.git",
+  "author": "jhonsidney <jhon.sidney@gmail.com>",
+  "license": "MIT"
 }
