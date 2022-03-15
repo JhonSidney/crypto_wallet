@@ -14,6 +14,9 @@
 <h4 align="center" >Cripto Wallet</h4>
 <h3 align="center" >under construction </h3>
 
+![image](https://user-images.githubusercontent.com/18706961/158394052-aa1081c1-9b13-4902-b5b0-191f21991822.png)
+![image](https://user-images.githubusercontent.com/18706961/158394648-b82a1248-c15e-4230-b542-aea4c314d80b.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/18706961/155847155-3d8074d4-7de7-446e-ac0b-789d3f4660c2.png)
