@@ -14,14 +14,5 @@
 <h4 align="center" >Cripto Wallet</h4>
 <h3 align="center" >under construction </h3>
 
-![image](https://user-images.githubusercontent.com/18706961/158394052-aa1081c1-9b13-4902-b5b0-191f21991822.png)
-![image](https://user-images.githubusercontent.com/18706961/158394648-b82a1248-c15e-4230-b542-aea4c314d80b.png)
 
-
-
-![image](https://user-images.githubusercontent.com/18706961/155847155-3d8074d4-7de7-446e-ac0b-789d3f4660c2.png)
-
-![image](https://user-images.githubusercontent.com/18706961/157691513-c0f37a6d-222c-4ae8-bca0-80d933bb8635.png)
-
-![image](https://user-images.githubusercontent.com/18706961/157691594-f2d03324-68b8-46b4-a873-6e46c26e0714.png)
-
+![criptowallet](https://user-images.githubusercontent.com/18706961/158619087-1209d5a7-2800-49df-b30e-3564eabe4c8e.png)
