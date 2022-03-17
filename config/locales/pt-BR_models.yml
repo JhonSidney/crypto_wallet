@@ -6,7 +6,7 @@
         other: Moedas
       mining_type: 
         one: Tipo de Mineração
-        other: Tipo de Mineração
+        other: Tipos de Minerações
     attributes:
       coin:
         id: Código

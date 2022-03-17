@@ -30,11 +30,25 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  actual_locale: "English (International)"
-  hello: "Hello world"
+  current_locale: "English (International)"
+  home: "Home Page"
+  messages:
+    welcome: "Welcome!"
+    welcome_msg: "this is cryptocurrency wallet, an app to register and track your coins. To get started, select an option below:"
+    hello: "Hello world"
+    confirm: "Are you sure ?"
   links:
     edit: "Edit"
     show: "Show"
     delete: "Destroy"
     mining_type: "Mining Types"
+    new: "New"
     coins: "Coins"
+    back: "Back"
+    submit: "Submit"
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+  editing:
+    coin: "Editing Coin "
+    mining_type: "Editing Mining Type"

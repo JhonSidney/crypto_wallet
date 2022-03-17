@@ -1,13 +1,39 @@
 
+<ul class="nav justify-content-end">
+        <li class="nav-item">
+          <p><%= link_to 'Portugues', root_path(locale: 'pt-BR'), class:"nav-link active"%></p>
+        </li>
+        <li class="nav-item">
+          <p><%= link_to 'English', root_path(locale: 'en'), class:"nav-link"%></p>
+        </li>
+       
+      </ul>
 <div class="container col-xxl-8 px-4 py-5">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-6">
       <%= image_tag "cripto.png", class: "d-block mx-lg-auto img-fluid", alt:"Bootstrap Themes", width:"700", height:"500", loading:" lazy" %>
     </div>
     <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Sejam Bem vindo!</h1>
-        <p class="lead">Esta é o Cripto Wallet, uma app para voce cadastrar e acompanhar suas criptomoedas. Para começar selecione uma das opções abaixo: </p>
+        <h1 class="display-5 fw-bold lh-1 mb-3"><%= t('messages.welcome')%></h1>
+        <p class="lead"><%= t('messages.welcome_msg')%> </p>
       <%= render "menu" %>
     </div>
   </div>
+</div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="text-muted">&copy;Crypto Wallet</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </footer>
 </div>
