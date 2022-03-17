@@ -18,7 +18,7 @@
         <td><%= mining_type.acronym %></td>
         <td><%= link_to t('links.show'), mining_type, class:"btn btn-success" %></td>
         <td><%= link_to t('links.edit'), edit_mining_type_path(mining_type), class:"btn btn-warning" %></td>
-        <td><%= link_to t('links.delete'), mining_type, method: :delete, data: { confirm: t('messages.confirma') }, class:"btn btn-danger" %></td>
+        <td><%= link_to t('links.delete'), mining_type, method: :delete, data: { confirm: t('messages.confirm') }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
